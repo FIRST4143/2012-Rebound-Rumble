@@ -1,0 +1,40 @@
+2012 Rebound Rumble
+
+***Controls***
+Right Joystick		Throttle	Shooter Motor	
+Right Joystick		Button 1	Bridge up slow
+Right Joystick		Button 2	Bridge down slow
+Right Joystick		Button 3	Bridge down fast
+Right Joystick		Y Axis		Arcade drive
+Left Joystick		Y Axis		Arcade drive
+Left Joystick		Button 1	Drive brake
+Left Joystick		Button 2	Drive fast
+Left Joystick		Button 3	Drive slow
+Xbox				L Bumper	Conveyor up	
+Xbox				R Bumper	Conveyor down
+Xbox				A			Pick up ball
+Xbox				X			Puch ball out
+Xbox				B			Camera position 1
+Xbox				Y			Camera position 2
+Xbox				Start		Camera position 3
+Xbox				Direct Pad	Camera servo control
+
+
+***Connections***
+PWM1				Jaguar		Left and Right Motors
+PWM2				Jaguar		Left and Right Motors
+PWM4				Victor		Bridge Arm
+PWM5				Jaguar		Shooter Motor
+PWM7				Servo		Servo Y
+PWM8				Servo		Servo X
+AI1					Analog		Ultrasonic
+DIO 1				Encoder		Encoder
+DIO 2				Encoder		Encoder
+DIO10				Limit Sw	Bridge Down Limit
+DIO 9				Limit Sw	Bridge Up Limit
+USB1				Joystick	Xbox
+USB2				Joystick	Left Joystick
+USB3				Joystick	Right Joystick
+Analog Module 1		AI2			Main Gyro
+Digital Module 1	Relay 1		Conveyor
+Digital Module 1	Relay 2		Pickup
